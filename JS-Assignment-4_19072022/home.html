@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contitions</title>
+    <link rel="stylesheet" href="styles/home.css">
+</head>
+
+<body>
+    <div class="container-1">
+        <div class="container text-center pad">
+            <div class="row flex">
+                <div class="col">
+                    <input type="text" id="num1" value="" placeholder="Enter Number 1">
+                </div>
+                <div class="col">
+                    <input type="text" id="num2" value="" placeholder="Enter Number 2">
+                </div>
+            </div>
+        </div>
+
+        <div class="solution pad">
+            <div>Solution=></div>
+            <div id="result"></div>
+        </div>
+
+        <div class="container text-center pad">
+            <div class="row flex">
+                <div class="col">
+                    <button onclick="Output()" type="button">Answer</button>
+                </div>
+                <div class="col">
+                    <button class="btn" onclick="Reset()">Clear</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="conatiner-2" style="padding: 10px 0px;">
+            <input type="text" id="num" value="">
+            <button onclick="Solution()" type="button">Answer</button>
+            <div id="result-2"></div>
+            <button class="btn" onclick="Reset()">Clear</button>
+        </div>
+
+        <div class="container-3">
+            <input type="text" id="n" value="">
+            <button onclick="conclusion()" type="button">Answer</button>
+            <div id="result-3"></div>
+            <button class="btn" onclick="Reset()">Clear</button>
+        </div>
+        <script src="home.js"></script>
+    </div>
+</body>
+
+</html>

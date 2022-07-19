@@ -1,0 +1,29 @@
+$bordRad:5px;
+$flex:flex !important;
+$padding: 10px 5px;
+
+.container-1{
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: lemonchiffon;
+    box-shadow: 0px 0px 10px 2px grey;
+    border-radius: $bordRad;
+    border: 1px solid red($color: #000000);
+}
+.flex{
+    display: $flex;
+    justify-content: space-between !important;
+}
+.solution{
+    width: 97%;
+    height: 20px;
+    text-align: center;
+    display: $flex;
+    justify-content: space-around!important;
+    border-radius: $bordRad;
+    box-shadow: 0px 0px 10px 2px grey inset;
+}
+.pad{
+    padding: $padding;
+}
