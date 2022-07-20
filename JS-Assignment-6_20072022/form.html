@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>REgistration Form</title>
+    <link rel="stylesheet" href="form.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <div class="heading">
+                <h1>Registration Form</h1>
+            </div>
+            <div class="done" id="success"></div>
+            <div class="row section">
+                <div class="col-6 left">
+                    <div class="label">FirstName</div>
+                    <div><input type="text" id="firstname"></div>
+                    <div class="error" id="Efirstname"></div>
+                </div>
+                <div class="col-6 right">
+                    <div class="label">LastName</div>
+                    <div><input type="text" id="lastname"></div>
+                    <div class="error" id="Elastname"></div>
+                </div>
+            </div>
+
+            <div class="row section">
+                <div class="col-6 left">
+                    <div class="label">E-Mail:</div>
+                    <div><input type="email" id="mail"></div>
+                    <div class="error" id="Email"></div>
+                </div>
+                <div class="col-6 right">
+                    <div class="label">Phone:</div>
+                    <div><input type="number" id="phone"></div>
+                    <div class="error" id="Ephone"></div>
+                </div>
+            </div>
+            
+            <div class="city">
+                <div class="label">City:</div>
+                <div><input type="text" id="city" class="input"></div>
+                <div class="error" id="Ecity"></div>
+            </div>
+
+            <div class="row section">
+                <div class="col-6 left">
+                    <div class="label">Country:</div>
+                    <div><input type="text" id="country"></div>
+                    <div class="error" id="Ecountry"></div>
+                </div>
+                <div class="col-6 right">
+                    <div class="label">ZipCode</div>
+                    <div><input type="text" id="zipcode"></div>
+                    <div class="error" id="Ezipcode"></div>
+                </div>
+            </div>
+
+            <div class="button"><button type="button" onclick="start()" class="btn btn-primary btn-size">Submit
+                    Form</button></div>
+            <div class="error" id="ErrorAll"></div>
+            <div class="done" id="success"></div>
+            <script src="form.js"></script>
+        </form>
+    </div>
+</body>
+
+</html>
