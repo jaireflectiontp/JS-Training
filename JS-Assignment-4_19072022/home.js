@@ -59,11 +59,11 @@ function conclusion() {
     var number = parseInt(document.getElementById('n').value);
 
     var result;
-
+debugger;
     if (number % 2 == 0) {
         result = number + 'is an Even Number';
     }
-    else if (number % 3 == 0) {
+    else if (number % 2 != 0) {
         result = number +'is an Odd Number';
     }
     else {
