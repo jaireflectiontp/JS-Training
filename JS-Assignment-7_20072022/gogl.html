@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Google Form</title>
+    <link rel="stylesheet" href="gogl.css">
+
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="container">
+            <div class="main">
+                <form>
+                    <div class="error" id="ErrorAll"></div>
+                    <div class="logo pad"><img src="./logo.png" alt="google"></div>
+                    <div class="heading">
+                        <h2 class="h2">Create your Google Account</h2>
+                    </div>
+                    <div class="mail-direct pad">to continue to Gmail</div>
+
+                    <div class="row d-flex pad">
+                        <div class="col">
+                            <input type="text" id="firstname" placeholder="First Name" class="input">
+                            <div class="error" id="Efirstname"></div>
+                        </div>
+
+                        <div class="col">
+                            <input type="text" id="lastname" placeholder="Last Name" class="input">
+                            <div class="error" id="Elastname"></div>
+                        </div>
+                    </div>
+
+                    <div class="user-address pad-top"><input type="email" id="mail" placeholder="Username"
+                            class="input-1 input">
+                        <div class="error" id="Email"></div>
+                    </div>
+
+                    <div class="guide">You can use letters, numbers & periods</div>
+
+                    <div class="row d-flex pad-top">
+                        <div class="col">
+                            <input type="password" id="password" placeholder="Password" class="input">
+                            <div class="error" id="Epassword"></div>
+                        </div>
+
+                        <div class="col">
+                            <input type="password" id="cpassword" placeholder="Confirm" class="input">
+                            <div class="error" id="Ecpassword"></div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="guide">Use 8 or more characters with a mix of letters, numbers & <br> symbols</div>
+
+                    <div class="pass-show pad">
+                        <input type="checkbox"> Show password
+                    </div>
+                    <div class="row d-flex pad btn-link">
+                        <div class="col">
+                            <a href="#" class="link-text">Sign in instead</a>
+                        </div>
+                        <div class="col">
+                            <button type="button" onclick="create()" class="btn">Next</button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+            <div class="right">
+                <figure class="figcap">
+                    <img src="./account.png" alt="google" width="170px">
+                    <figcaption>
+                        <p class="right-font">One account. All of Google <br> working for you.</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="count"></div>
+        <div class="nav">
+            <ul>
+                <li class="link"><a href="" class="link-text-">Help</a></li>
+                <li class="link"><a href="" class="link-text-">Privacy</a></li>
+                <li class="link"><a href="" class="link-text-">Terms</a></li>
+            </ul>
+        </div>
+    </div>
+    <script src="gogl.js"></script>
+</body>
+
+</html>
