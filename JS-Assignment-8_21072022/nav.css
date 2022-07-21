@@ -1,0 +1,29 @@
+.body{
+    margin: 0px;
+}
+.box{
+    color: blue;
+    text-align: center;
+background-color: cadetblue;
+}
+.link{
+    display: inline-block;
+    padding: 0 30px;
+    cursor: pointer;
+    position: relative;
+}
+.nav-head{
+    font-size:x-large;
+}
+.ul{
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    right: 0px;
+    padding: 15px;
+    background-color: beige;
+}
+.ul-link{
+    color: black;
+    padding-bottom: 10px;
+}
