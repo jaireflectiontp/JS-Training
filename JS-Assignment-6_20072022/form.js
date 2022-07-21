@@ -39,7 +39,7 @@ function start() {
         document.getElementById('Ecountry').innerHTML = '*Please enter the country*';
     }
     else if (zipcode == '') {
-        document.getElementById('Ezipcode').innerHTML = '*Please enter area code*';
+        document.getElementById('Ezipcode').innerHTML = '*Please enter area code num only*';
     }
     else {
         document.getElementById('success').innerHTML = 'Login Successful!'
