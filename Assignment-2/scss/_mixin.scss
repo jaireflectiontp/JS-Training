@@ -1,0 +1,14 @@
+@mixin resolution {
+    max-width: 1368px;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+@mixin list {
+    padding: 0;
+    margin: 0;
+}
+@mixin flex {
+    display: flex;
+    justify-content: space-between;
+}

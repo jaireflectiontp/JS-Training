@@ -1,0 +1,243 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?p66xpd');
+  src:  url('fonts/icomoon.eot?p66xpd#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?p66xpd') format('truetype'),
+    url('fonts/icomoon.woff?p66xpd') format('woff'),
+    url('fonts/icomoon.svg?p66xpd#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-log-out:before {
+  content: "\e900";
+}
+.icon-chat:before {
+  content: "\e901";
+}
+.icon-comment:before {
+  content: "\e901";
+}
+.icon-talk:before {
+  content: "\e901";
+}
+.icon-chat3:before {
+  content: "\e902";
+}
+.icon-comment3:before {
+  content: "\e902";
+}
+.icon-talk3:before {
+  content: "\e902";
+}
+.icon-comments:before {
+  content: "\e903";
+}
+.icon-bubbles:before {
+  content: "\e903";
+}
+.icon-chat4:before {
+  content: "\e903";
+}
+.icon-talk4:before {
+  content: "\e903";
+}
+.icon-chat5:before {
+  content: "\e904";
+}
+.icon-comments1:before {
+  content: "\e904";
+}
+.icon-bubble2:before {
+  content: "\e904";
+}
+.icon-talk5:before {
+  content: "\e904";
+}
+.icon-bubble1:before {
+  content: "\e905";
+}
+.icon-comment2:before {
+  content: "\e905";
+}
+.icon-chat2:before {
+  content: "\e905";
+}
+.icon-talk2:before {
+  content: "\e905";
+}
+.icon-like:before {
+  content: "\e906";
+}
+.icon-thumbs-up:before {
+  content: "\e906";
+}
+.icon-approve:before {
+  content: "\e906";
+}
+.icon-earth:before {
+  content: "\e907";
+}
+.icon-globe:before {
+  content: "\e907";
+}
+.icon-comment1:before {
+  content: "\e908";
+}
+.icon-chat1:before {
+  content: "\e908";
+}
+.icon-talk1:before {
+  content: "\e908";
+}
+.icon-bubble:before {
+  content: "\e908";
+}
+.icon-home:before {
+  content: "\e909";
+}
+.icon-home3:before {
+  content: "\e90a";
+}
+.icon-search:before {
+  content: "\e986";
+}
+.icon-cog:before {
+  content: "\e994";
+}
+.icon-list:before {
+  content: "\e9ba";
+}
+.icon-list2:before {
+  content: "\e9bb";
+}
+.icon-menu:before {
+  content: "\e9bd";
+}
+.icon-sphere:before {
+  content: "\e9c9";
+}
+.icon-earth1:before {
+  content: "\e9ca";
+}
+.icon-cancel-circle:before {
+  content: "\ea0d";
+}
+.icon-cross:before {
+  content: "\ea0f";
+}
+.icon-exit:before {
+  content: "\ea14";
+}
+.icon-circle-down:before {
+  content: "\ea43";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-facebook2:before {
+  content: "\ea91";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.icon-youtube2:before {
+  content: "\ea9e";
+}
+.icon-linkedin:before {
+  content: "\eac9";
+}
+.icon-linkedin2:before {
+  content: "\eaca";
+}
+.icon-comment-o:before {
+  content: "\e90b";
+}
+.icon-snapchat-square:before {
+  content: "\e90c";
+}
+.icon-share-alt-square:before {
+  content: "\e90d";
+}
+.icon-git-square:before {
+  content: "\e90e";
+}
+.icon-steam-square:before {
+  content: "\e90f";
+}
+.icon-reddit-square:before {
+  content: "\e910";
+}
+.icon-rss-square:before {
+  content: "\e911";
+}
+.icon-angle-down:before {
+  content: "\e912";
+}
+.icon-angle-up:before {
+  content: "\e913";
+}
+.icon-angle-right:before {
+  content: "\e914";
+}
+.icon-angle-left:before {
+  content: "\e915";
+}
+.icon-angle-double-down:before {
+  content: "\e916";
+}
+.icon-angle-double-up:before {
+  content: "\e917";
+}
+.icon-angle-double-right:before {
+  content: "\e918";
+}
+.icon-angle-double-left:before {
+  content: "\e919";
+}
+.icon-pinterest-square:before {
+  content: "\e91a";
+}
+.icon-share-square-o:before {
+  content: "\e91b";
+}
+.icon-check-square:before {
+  content: "\e91c";
+}
+.icon-lock-closed:before {
+  content: "\e91d";
+}
+.icon-close-solid:before {
+  content: "\e91e";
+}
+.icon-close-outline:before {
+  content: "\e91f";
+}
+.icon-close:before {
+  content: "\e920";
+}
+.icon-time:before {
+  content: "\e921";
+}
