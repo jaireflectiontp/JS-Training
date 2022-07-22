@@ -29,9 +29,8 @@ function create() {
         document.getElementById('Email').innerHTML = '*Please enter your e-mail address*';
         document.getElementById('mail').style.border='1px solid red';
     }
-    else if (mail !='/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/' ) {
-        document.getElementById('Email').innerHTML = '*Please check your e-mail address*';
-    }
+   
+    
     else if (password == '') {
         document.getElementById('Epassword').innerHTML = '*Please enter the password*';
         document.getElementById('password').style.border='1px solid red';

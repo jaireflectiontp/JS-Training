@@ -11,7 +11,7 @@
     <div class="main-container">
         <div class="container">
             <div class="main">
-                <form>
+                <form onsubmit="return false">
                     <div class="error" id="ErrorAll"></div>
                     <div class="logo pad"><img src="./logo.png" alt="google"> </div>
                     <div class="heading">
@@ -62,7 +62,7 @@
                             <a href="#" class="link-text">Sign in instead</a>
                         </div>
                         <div class="col">
-                            <button type="button" onclick="create()" class="btn">Next</button>
+                            <button type="submit" onclick="create()" class="btn">Next</button>
                         </div>
                     </div>
                     <span id="success"></span>
