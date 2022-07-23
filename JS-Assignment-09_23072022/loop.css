@@ -1,0 +1,31 @@
+.nums{
+    padding: 0 10px;
+    color: red;
+}
+.body{
+    display: flex;
+    justify-content: space-around;
+}
+.list{
+display: block;
+}
+.numseven{
+    padding: 0 10px;
+    color: green;
+}
+.numsodd{
+    padding: 0 10px;
+    color: blue;
+}
+.numcomposite{
+    padding: 0 10px;
+    color: coral;
+}
+.numprime{
+    padding: 0 10px;
+    color: fuchsia;
+}
+.table{
+    display: flex;
+    justify-content: space-around;
+}
