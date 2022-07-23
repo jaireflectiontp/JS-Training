@@ -1,9 +1,10 @@
-.body{
-    margin: 0px;
-}
-
 @import './scss/header';
 @import './scss/main';
 @import './scss/mixin';
 @import './scss/variable';
+
+.body{
+    margin: 0px;
+    background-color: $colorf4f
+}
 

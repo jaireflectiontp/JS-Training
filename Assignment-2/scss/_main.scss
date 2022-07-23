@@ -2,41 +2,58 @@
 @import './variable';
 
 @font-face {
-    font-family:Exbold;
+    font-family: Exbold;
     src: url(../fonts/MerriweatherSans-Bold.ttf);
 }
 
-.main{
+.main {
     @include resolution;
 }
-.intro-site{
+
+.intro-site {
     text-align: center
 }
+
 .site-list {
     @include list;
 }
 
 .site-link {
-    display:$link-display;
+    display: $link-display;
     padding: 10px 25px;
     font-weight: 700;
-    .link-text{
+
+    .link-text {
         text-decoration: none;
         color: $color007;
-        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
     }
 }
-.intro-banner{
-position: relative;
-.banner{
-    width: 100%;
+
+.intro-banner {
+    position: relative;
+
+    .banner {
+        width: 100%;
+    }
+
+    .banner-text {
+        font-family: Exbold;
+        position: absolute;
+        font-size: 62px;
+        top: 126px;
+        left: 321px;
+    }
 }
-.banner-text{
-    font-family: Exbold;
-    position: absolute;
-    font-size: 62px;
-    top: 126px;
-    left: 321px;
+
+.directory{
+    padding: 15px 0px;
 }
+.inner-direct{
+    padding: 60px;
+    text-align: center;
+}
+.slogan, .brandvalue{
+    margin: 0;
 }

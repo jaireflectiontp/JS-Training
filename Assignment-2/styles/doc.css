@@ -1,6 +1,3 @@
-.body {
-  margin: 0px; }
-
 .header {
   max-width: 1368px;
   width: 100%;
@@ -77,3 +74,17 @@
     font-size: 62px;
     top: 126px;
     left: 321px; }
+
+.directory {
+  padding: 15px 0px; }
+
+.inner-direct {
+  padding: 60px;
+  text-align: center; }
+
+.slogan, .brandvalue {
+  margin: 0; }
+
+.body {
+  margin: 0px;
+  background-color: #f4f5f9; }
