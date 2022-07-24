@@ -4,11 +4,19 @@
     margin: 0 auto;
     border: 1px solid red;
 }
+
 @mixin list {
     padding: 0;
     margin: 0;
 }
+
 @mixin flex {
     display: flex;
     justify-content: space-between;
+}
+
+@mixin button {
+    background-color: $color007;
+    color: $colorf4f;
+    padding: 10px 100px;
 }

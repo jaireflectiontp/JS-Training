@@ -36,6 +36,7 @@
 
 .logo {
   padding: 10px 20px;
+  background-color: #ffffff;
   border-bottom: 1px solid grey; }
 
 @font-face {
@@ -49,7 +50,8 @@
   border: 1px solid red; }
 
 .intro-site {
-  text-align: center; }
+  text-align: center;
+  background-color: #ffffff; }
 
 .site-list {
   padding: 0;
@@ -76,14 +78,126 @@
     left: 321px; }
 
 .directory {
-  padding: 15px 0px; }
+  margin: 15px 0;
+  background-color: #ffffff; }
 
 .inner-direct {
   padding: 60px;
   text-align: center; }
 
 .slogan, .brandvalue {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+.headrule {
+  background-color: #007fb9;
+  height: 2px;
+  width: 100px;
+  color: #007fb9;
+  margin-top: 35px; }
+
+.benefits {
+  padding-top: 50px; }
+
+.benif-list {
+  padding: 0;
   margin: 0; }
+
+.benif-link {
+  display: inline-block;
+  padding: 10px 25px;
+  font-weight: 700; }
+  .benif-link .link-text {
+    text-decoration: none;
+    color: #007fb9;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+.highlight {
+  margin: 60px 230px;
+  display: flex;
+  justify-content: space-around; }
+
+.article-img {
+  width: 30%; }
+
+.artic-image {
+  width: 100%;
+  float: left; }
+
+.article-data {
+  width: 70%; }
+
+.turning26 {
+  padding: 30px 0 1px 50px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+.turning26-heading {
+  margin: 0%; }
+
+.more {
+  color: #007fb9;
+  font-weight: 600;
+  font-size: smaller; }
+
+.row {
+  display: flex; }
+
+.row {
+  position: relative; }
+
+.button {
+  background-color: #007fb9;
+  color: #f4f5f9;
+  padding: 10px 100px;
+  position: absolute;
+  bottom: 25px; }
+
+.question {
+  background-color: #ffffff; }
+
+.que-para {
+  padding: 70px 260px;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+.analytics {
+  padding: 0 150px; }
+
+.country {
+  padding-bottom: 40px; }
+
+.country-record {
+  display: flex;
+  background-color: #f4f5f9; }
+  .country-record .column {
+    width: 25%;
+    text-align: center; }
+
+.rating {
+  font-size: 70px;
+  font-family: system-ui;
+  padding-top: 10px; }
+
+.hr {
+  background-color: #98cef2;
+  height: 5px;
+  width: 40px;
+  color: #007fb9; }
+
+.note {
+  margin: 0;
+  padding: 5px; }
+
+.globe-record {
+  display: flex;
+  background-color: #007fb9; }
+  .globe-record .columns {
+    width: 33.33%;
+    text-align: center; }
+
+.record-title {
+  margin: 0;
+  padding-top: 5px; }
 
 .body {
   margin: 0px;
