@@ -1,10 +1,12 @@
 @import './scss/header';
 @import './scss/main';
+@import './scss/footer';
 @import './scss/mixin';
 @import './scss/variable';
 
 .body{
     margin: 0px;
-    background-color: $colorf4f
+    background-color: $colorf4f;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 

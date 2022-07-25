@@ -1,0 +1,42 @@
+@import './mixin';
+@import './variable';
+
+.footer{
+    @include resolution;
+    padding: 40px 0;
+background-color: $color333;
+color: $colorf4f;
+}
+.footer-nav, .partners, .social, .address, .copyright, .accreditation{
+padding-bottom: 25px;
+text-align: center;
+}
+.footer-list{
+    margin: 0;
+    padding: 0;
+}
+.footer-link{
+    display: inline-block;
+    padding: 0 20px;
+}
+.footer-text{
+    text-decoration: none;
+    color: $colorf4f;
+}
+.partners-list{
+    padding: 0 10px;
+}
+
+.social-icon{
+    padding: 0 2px;
+}
+
+.address-title{
+    margin-bottom: 0ch;
+}
+.address-details{
+    margin: 0;
+}
+/*.notice{
+    border-bottom: 1px solid $colorf4f ;
+}*/
