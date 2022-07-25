@@ -42,7 +42,7 @@ function change() {
 
     for (var i =1; i <= a; i++) {
         for (var j = 1; j <= a; j++) {
-            num += '#'
+            num += '@ &nbsp  &nbsp'
         }
         num += '<br/>'
     }
