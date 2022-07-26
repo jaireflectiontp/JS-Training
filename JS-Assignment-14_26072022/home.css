@@ -1,0 +1,16 @@
+.picsize{
+    width: 500px;
+}
+.images{
+    display: none;
+    text-align: center;
+}
+.buttons{
+    text-align: center;
+}
+.images:first-child{
+    display: block;
+}
+#photos{
+    text-align: center;
+}
