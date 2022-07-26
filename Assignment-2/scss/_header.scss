@@ -8,11 +8,13 @@
 .nav {
     @include flex;
     background-color: $color015;
-    padding: 5px 0;
 }
 
 .nav-list {
     @include list;
+}
+.nav-bar-l{
+    padding: 5px 0;
 }
 
 .nav-link {
@@ -28,11 +30,21 @@
 .input{
     color: $colorf4f;
     outline: none;
+    padding: 7px 0;
+}
+.inp{
+    position: relative;
 }
 .search-icon{
     background-color: $colorf4f;
     color: $color015;
+    position: absolute;
+    right: 25px;
+    top: 9px;
 }
+/*.last-nav{
+    background-color: $color006;
+}*/
 .user-icon{
     font-size: 15px;
     padding-right: 10px;

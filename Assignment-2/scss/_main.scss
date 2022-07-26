@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: Exbold;
-    src: url(../fonts/MerriweatherSans-Bold.ttf);
+    src: url(../fonts/MerriweatherSans-ExtraBold.ttf);
 }
 
 .main {
@@ -38,14 +38,20 @@
     .banner {
         width: 100%;
     }
+.banner-over{
+    text-align: center;
+    margin: 0 300px;
+    position: absolute;
+    top: 186px;
+    left: 22px;
 
     .banner-text {
         font-family: Exbold;
-        position: absolute;
-        font-size: 62px;
-        top: 126px;
-        left: 321px;
+        font-size: 59px;
+        margin: 0;
+        color: $colorfff;
     }
+}
 }
 
 .directory{
@@ -123,7 +129,7 @@
 }
 .button{
     @include button;
-    position: absolute;
+    //position: absolute;
     bottom: 25px;
 }
 .question{

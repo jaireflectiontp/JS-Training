@@ -6,12 +6,14 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  background-color: #015172;
-  padding: 5px 0; }
+  background-color: #015172; }
 
 .nav-list {
   padding: 0;
   margin: 0; }
+
+.nav-bar-l {
+  padding: 5px 0; }
 
 .nav-link {
   display: inline-block;
@@ -23,12 +25,22 @@
 
 .input {
   color: #f4f5f9;
-  outline: none; }
+  outline: none;
+  padding: 7px 0; }
+
+.inp {
+  position: relative; }
 
 .search-icon {
   background-color: #f4f5f9;
-  color: #015172; }
+  color: #015172;
+  position: absolute;
+  right: 25px;
+  top: 9px; }
 
+/*.last-nav{
+    background-color: $color006;
+}*/
 .user-icon {
   font-size: 15px;
   padding-right: 10px; }
@@ -40,7 +52,7 @@
 
 @font-face {
   font-family: Exbold;
-  src: url(../fonts/MerriweatherSans-Bold.ttf); }
+  src: url(../fonts/MerriweatherSans-ExtraBold.ttf); }
 
 .main {
   max-width: 1366px;
@@ -68,12 +80,17 @@
   position: relative; }
   .intro-banner .banner {
     width: 100%; }
-  .intro-banner .banner-text {
-    font-family: Exbold;
+  .intro-banner .banner-over {
+    text-align: center;
+    margin: 0 300px;
     position: absolute;
-    font-size: 62px;
-    top: 126px;
-    left: 321px; }
+    top: 186px;
+    left: 22px; }
+    .intro-banner .banner-over .banner-text {
+      font-family: Exbold;
+      font-size: 59px;
+      margin: 0;
+      color: #ffffff; }
 
 .directory {
   margin: 15px 0;
@@ -145,7 +162,6 @@
   background-color: #007fb9;
   color: #f4f5f9;
   padding: 10px 100px;
-  position: absolute;
   bottom: 25px; }
 
 .question {
