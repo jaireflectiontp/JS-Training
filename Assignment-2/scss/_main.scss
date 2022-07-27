@@ -148,15 +148,27 @@
     display: flex;
 }
 
-.plans .col1 {
+.plans  {
     position: relative;
 }
 
-.plans .button-1 {
+.button-1, .button-2, .button-3 {
     @include button;
     position: absolute;
+    padding: 12px 119px;
 }
-
+.button-1{
+    bottom: 69px;
+    left: 39px;
+}
+.button-2{
+    bottom: 0;
+    left: 25px;
+}
+.button-3{
+    bottom: 0;
+    left:36px
+}
 .question {
     background-color: $colorfff;
 }
@@ -233,12 +245,12 @@
     text-align: center;
 }
 
-.button-2 {
+.button-4 {
     @include button;
     padding: 10px 50px;
 }
 
-.button-3 {
+.button-5 {
     color: $color007;
     border: none;
     background-color: $colorfff;
