@@ -16,6 +16,8 @@
 
 @mixin button {
     background-color: $color006;
-    //color: $colorf4f;
-    padding: 10px 100px;
+    color: $colorf4f;
+    border: none;
+    text-align: center;
+    cursor: pointer;
 }

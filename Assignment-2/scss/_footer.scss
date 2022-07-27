@@ -23,6 +23,9 @@ text-align: center;
     text-decoration: none;
     color: $colorf4f;
 }
+.partners-list:first-child{
+    color: $color8d8;
+}
 .partners-list{
     padding: 0 10px;
 }
@@ -37,6 +40,11 @@ text-align: center;
 .address-details{
     margin: 0;
 }
-/*.notice{
-    border-bottom: 1px solid $colorf4f ;
-}*/
+
+.copyright{
+    color: $color8d8;
+}
+.notice{
+   color: $colorf4f;
+   text-decoration: underline;
+}
