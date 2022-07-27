@@ -92,6 +92,14 @@
       margin: 0;
       color: #ffffff; }
 
+.banner-button {
+  background-color: #006792;
+  padding: 15px 50px;
+  margin-top: 36px;
+  font-size: large;
+  color: aliceblue;
+  border: 0; }
+
 .directory {
   margin: 15px 0;
   background-color: #ffffff; }
@@ -152,17 +160,19 @@
   font-weight: 600;
   font-size: smaller; }
 
+.morearrow {
+  padding: 5px; }
+
 .row {
   display: flex; }
 
-.row {
+.plans .col1 {
   position: relative; }
 
-.button {
-  background-color: #007fb9;
-  color: #f4f5f9;
+.plans .butn {
+  background-color: #006792;
   padding: 10px 100px;
-  bottom: 25px; }
+  position: absolute; }
 
 .question {
   background-color: #ffffff; }
@@ -197,7 +207,8 @@
 
 .note {
   margin: 0;
-  padding: 5px; }
+  padding: 5px;
+  font-size: 14px; }
 
 .globe-record {
   display: flex;
@@ -206,9 +217,16 @@
     width: 33.33%;
     text-align: center; }
 
+.globe-text {
+  color: #f4f5f9; }
+
 .record-title {
   margin: 0;
   padding-top: 5px; }
+
+.find {
+  padding: 80px 500px;
+  text-align: center; }
 
 .contact-service {
   padding: 20px 0;
@@ -219,10 +237,11 @@
   padding: 0 10px; }
 
 .service-type {
-  font-size: smaller; }
+  font-size: 14px;
+  padding-right: 5px; }
 
 .number {
-  font-weight: 600; }
+  font-weight: 800; }
 
 .footer {
   max-width: 1366px;
