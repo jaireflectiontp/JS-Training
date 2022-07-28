@@ -14,3 +14,13 @@
 #photos{
     text-align: center ;
 }
+.tabs{
+    background-image: linear-gradient(to right, #7474BF 0%, #348AC7 51%, #7474BF 100%);
+    padding: 5px 20px;
+    border: 1px solid red;
+    margin: 0 10px;
+}
+.counts{
+    text-align: center;
+    margin-bottom: 20px;
+}
