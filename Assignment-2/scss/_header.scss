@@ -8,8 +8,11 @@
 .nav {
     @include flex;
     background-color: $color015;
+    box-sizing: border-box;
 }
-
+.nav-drop{
+    display: none !important ;
+}
 .nav-list {
     @include list;
 }
