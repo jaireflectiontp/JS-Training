@@ -4,9 +4,7 @@
 .header {
     @include resolution;
 }
-
 .nav {
-    @include flex;
     background-color: $color015;
     box-sizing: border-box;
 }
@@ -16,13 +14,10 @@
 .nav-list {
     @include list;
 }
-.nav-bar-l{
-    padding: 5px 0;
-}
-
 .nav-link {
     display: $link-display;
     padding: 0px 20px;
+    vertical-align: middle;
     .link-text{
         text-decoration: none;
         color: $colorf4f;
@@ -30,25 +25,39 @@
         
     }
 }
-
+.nav-bar-l{
+    float: left;
+    width: 50%;
+}
+.nav-bar-m{
+    float: left;
+    width: 25%;
+    text-align: right;
+}
+.nav-bar-r{
+    text-align: right;
+}
 .input{
     color: black;
     outline: none;
-    padding: 7px 0;
+    padding: 10px 5px;
+    border: none;
 }
 .inp{
     position: relative;
+    padding: 0 0;
 }
 .search-icon{
     background-color: $colorf4f;
     color: $color015;
     position: absolute;
-    right: 25px;
-    top: 9px;
+    right: 5px;
+    top: 10px;
 }
-/*.last-nav{
+.last-nav{
     background-color: $color006;
-}*/
+    padding: 7px 15px 7px 20px;
+}
 .user-icon{
     font-size: 15px;
     padding-right: 10px;
@@ -57,4 +66,7 @@
     padding: 10px 20px;
     background-color: $colorfff;
     border-bottom: 1px solid grey;
+}
+.menubar{
+    display: none;
 }

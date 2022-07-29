@@ -5,13 +5,51 @@
 @import './scss/footer';
 
 @media screen and (min-width:320px) and (max-width:767px) {
-.nav-link{
-    display: none;
-}
-.members, .docpharm, .contact, .inp, .last-nav{
-    display: inline-block;
-}
-    .nav-drop{
+    .nav-drop {
         display: inline-block !important;
     }
+.employers, .providers, .producers, .company{
+    display: none;
+}
+.nav-bar-l{
+    float: left;
+    width: 50%;
+}
+.nav-bar-m{
+    float: right;
+    width: 50%;
+}
+.nav-bar-r{
+width: 100%;
+text-align: right;
+}
+.logo{
+    position: relative;
+}
+.menubar{
+    display: block;
+    font-size: 50px;
+    position: absolute;
+    right: 20px;
+    top: 17px;
+}
+.site-link{
+    display: none;
+}
+.banner-over{
+    display: none;
+}
+.highlight{
+    display: block;
+    margin: 0;
+}
+.article-img{
+    width: 100%;
+}
+.artic-img{
+    width: 100%;
+}
+.button1, .button2, .button3{
+    display: none !important;
+}
 }
