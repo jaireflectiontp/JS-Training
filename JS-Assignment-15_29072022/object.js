@@ -1,27 +1,27 @@
 var table1 = [
     {
         'Sr.No.': '1',
-        'Course': 'HTML',
-        'Status': 'Done',
-        'Comment': 'Revised'
+        Course: 'HTML',
+        Status: 'Done',
+        Comment: 'Revised'
     },
     {
         'Sr.No.': '2',
-        'Course': 'CSS',
-        'Status': 'Done',
-        'Comment': 'Revised'
+        Course: 'CSS',
+        Status: 'Done',
+        Comment: 'Revised'
     },
     {
         'Sr.No.': '3',
-        'Course': 'JS',
-        'Status': 'Ongoing',
-        'Comment': 'Practicing'
+        Course: 'JS',
+        Status: 'Ongoing',
+        Comment: 'Practicing'
     },
     {
         'Sr.No.': '4',
-        'Course': 'SQL',
-        'Status': 'NYS',
-        'Comment': 'NYS'
+        Course: 'SQL',
+        Status: 'NYS',
+        Comment: 'NYS'
     }
 ]
 
