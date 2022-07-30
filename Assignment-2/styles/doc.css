@@ -730,7 +730,13 @@
   .artic-img {
     width: 100%; }
   .button1, .button2, .button3 {
-    display: none !important; } }
+    display: none !important; }
+  .benif-link {
+    width: 100%; }
+  figcaption {
+    padding-top: 15px; }
+  .benifimage {
+    float: left; } }
 
 .body {
   margin: 0px;
