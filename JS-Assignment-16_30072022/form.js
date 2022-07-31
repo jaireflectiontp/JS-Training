@@ -19,42 +19,38 @@ function next() {
     }
     else if (firstname == '') {
         document.getElementById('Efirstname').innerHTML = '*please enter your first name*';
-        document.getElementById('firstname').style.border='1px solid red';
+       // document.getElementById('firstname').style.border='1px solid red';
     }
     else if (lastname == '') {
         document.getElementById('Elastname').innerHTML = '*Please enter your last name*';
-        document.getElementById('lastname').style.border='1px solid red';
+        //document.getElementById('lastname').style.border='1px solid red';
     }
     else if (mail == '') {
         document.getElementById('Email').innerHTML = '*Please enter your e-mail address*';
-        document.getElementById('mail').style.border='1px solid red';
+        //document.getElementById('mail').style.border='1px solid red';
     }
-   
-    
     else if (password == '') {
         document.getElementById('Epassword').innerHTML = '*Please enter the password*';
-        document.getElementById('password').style.border='1px solid red';
+        //document.getElementById('password').style.border='1px solid red';
     }
     else if (password.length < 8) {
         document.getElementById('Epassword').innerHTML = '*Password should contain min 8 character*';
-
+       // document.getElementById('password').style.border='1px solid red';
     }
     else if (cpassword == '') {
         document.getElementById('Ecpassword').innerHTML = '*Please re-enter the password *';
-        document.getElementById('cpassword').style.border='1px solid red';
+        //document.getElementById('cpassword').style.border='1px solid red';
     }
     else if (password != cpassword) {
         document.getElementById('Ecpassword').innerHTML = '*Please enter the password correctly*';
-
+        //document.getElementById('cpassword').style.border='1px solid red';
     }
     else {
-        document.getElementById('success').innerHTML = 'Thank You!'
+        sessionStorage.setItem('firstname',firstname)
+        sessionStorage.setItem('lastname',lastname)
+        sessionStorage.setItem('mail',mail)
+       
+        location.href = 'storage.html'
     }
-
-    localStorage.setItem('firstname',firstname)
-    localStorage.setItem('lastname',lastname)
-    localStorage.setItem('mail',mail)
-   
-    location.href = 'storage.html'
 
 }

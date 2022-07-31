@@ -1,0 +1,31 @@
+.container{
+    max-width: 250px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: transparent;
+    height: 320px;
+    box-shadow: 0 0 5px 1px inset grey;
+    border-radius: 5px;
+}
+
+.pad{
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.error{
+    color: red;
+    font-size: 12px;
+}
+.done{
+    color: yellowgreen;
+    font-size: 15px;
+}
+.button{
+    padding: 8px 25px;
+    color: white;
+    background-color: #1a73e8;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}

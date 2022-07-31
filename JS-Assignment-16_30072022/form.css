@@ -60,6 +60,7 @@
     background-color: #1a73e8;
     border-radius: 5px;
     font-weight: 700;
+    cursor: pointer;
 }
 .right-font{
     font-family:sans-serif ;

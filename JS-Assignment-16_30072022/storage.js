@@ -1,3 +1,7 @@
-document.getElementById('firstname').innerHTML=localStorage.getItem('firstname')
-document.getElementById('lastname').innerHTML=localStorage.getItem('lastname')
-document.getElementById('mail').innerHTML=localStorage.getItem('mail')
+document.getElementById('firstname').innerHTML=sessionStorage.getItem('firstname')
+document.getElementById('lastname').innerHTML=sessionStorage.getItem('lastname')
+document.getElementById('mail').innerHTML=sessionStorage.getItem('mail')
+
+function logout(){
+    location.href='login.html'
+}
