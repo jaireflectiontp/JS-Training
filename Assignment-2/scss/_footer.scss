@@ -23,11 +23,16 @@ text-align: center;
     text-decoration: none;
     color: $colorf4f;
 }
-.partners-list:first-child{
+.partners{
+    display: flex;
+    justify-content: center;
+}
+.partners-head{
     color: $color8d8;
 }
 .partners-list{
     padding: 0 10px;
+
 }
 
 .social-icon{

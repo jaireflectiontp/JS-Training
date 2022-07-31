@@ -325,7 +325,11 @@
   text-decoration: none;
   color: #f4f5f9; }
 
-.partners-list:first-child {
+.partners {
+  display: flex;
+  justify-content: center; }
+
+.partners-head {
   color: #8d8d8d; }
 
 .partners-list {
@@ -674,7 +678,11 @@
   text-decoration: none;
   color: #f4f5f9; }
 
-.partners-list:first-child {
+.partners {
+  display: flex;
+  justify-content: center; }
+
+.partners-head {
   color: #8d8d8d; }
 
 .partners-list {
@@ -736,7 +744,21 @@
   figcaption {
     padding-top: 15px; }
   .benifimage {
-    float: left; } }
+    float: left; }
+  .footer {
+    font-size: larger; }
+  .footer-link {
+    display: block;
+    padding: 10px 0; }
+  .partners {
+    display: block;
+    padding-bottom: 35px; }
+  .s-img {
+    width: 50px; }
+  .copyright {
+    padding: 0 157px; }
+  .notice {
+    padding: 20px 0; } }
 
 .body {
   margin: 0px;
