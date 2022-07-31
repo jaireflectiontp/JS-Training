@@ -1,0 +1,30 @@
+.hello{
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid grey;
+    border-radius: 5px;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 5px 1px inset gray
+}
+.padding{
+    padding: 20px 0;
+}
+.firstname, .lastname, .mail{
+    display: flex;
+    justify-content: space-between;
+    text-align:left;
+}
+#firstname, #lastname, #mail{
+    text-align: center;
+    border: 1px solid black;
+    width: 60%;
+}
+.button{
+    padding: 8px 25px;
+    color: white;
+    background-color: #1a73e8;
+    border-radius: 5px;
+    font-weight: 700;
+}

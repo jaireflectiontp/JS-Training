@@ -1,4 +1,4 @@
-function create() {
+function next() {
 
     var firstname = document.getElementById('firstname').value;
     var lastname = document.getElementById('lastname').value;
@@ -50,12 +50,6 @@ function create() {
     else {
         document.getElementById('success').innerHTML = 'Thank You!'
     }
-    
-}
-function next(){
-    var firstname = document.getElementById('firstname').value;
-    var lastname = document.getElementById('lastname').value;
-    var mail = document.getElementById('mail').value;
 
     localStorage.setItem('firstname',firstname)
     localStorage.setItem('lastname',lastname)

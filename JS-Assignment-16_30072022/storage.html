@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>storage</title>
 
-    </head>
-    <body>
-        <div>
-            hii
-            <span id="firstname"></span>
-            <span id="lastname"></span>
-            <span id="mail"></span>
-        </div>
-        <script src="storage.js"></script>
-    </body>
+<head>
+    <title>storage</title>
+<link rel="stylesheet" href="storage.css">
+</head>
+
+<body>
+    <div class="hello">
+        <div class="google-img"><img src="./logo.png" alt="logo"></div>
+        <h2>Hello!</h2>
+        <h3>Account Has Created Successfully</h3>
+        <div class="padding">Please! Find the details below.</div>
+        <div class="firstname padding"><span>Firstname :</span><span id="firstname"></span></div>
+        <div class="lastname padding"><span>Lastname :</span><span id="lastname"></span></div>
+        <div class="mail padding"><span>Email Address :</span><span id="mail"></span></div>
+        <div class="padding"><button onclick="logout()" class="button">Log Out</button></div>
+    </div>
+    <script src="storage.js"></script>
+</body>
+
 </html>
