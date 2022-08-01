@@ -241,6 +241,8 @@
     bottom: 40px;
 }
 .find {
+    display: flex;
+    justify-content: center;
     padding: 80px 450px;
     text-align: center;
 }
@@ -261,12 +263,19 @@
     border: none;
     background-color: $colorfff;
     cursor: pointer;
+    padding: 10px 50px;
 }
-
+.contact-service{
+    display: flex;
+    justify-content: center;
+}
 .wrap {
+    display: flex;
     padding: 0 10px;
 }
-
+.wrap:first-child{
+    border-right: 1px solid black;
+}
 .service-type {
     font-size: 14px;
     padding-right: 5px;
