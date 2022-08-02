@@ -12,15 +12,17 @@
         width: 100%;
         margin: 0 auto;
     }
-.nav{
-    padding-bottom: 50px;
-}
+
+    .nav {
+        padding-bottom: 50px;
+    }
+
     .inner {
         border: 1px solid black;
         padding: 20px 0;
         text-align: center;
         background-color: azure;
-    border-radius: 60PX;
+        border-radius: 60PX;
     }
 
     ul {
@@ -30,28 +32,48 @@
 
     li {
         display: inline-block;
-    padding: 10px 50px;
-    cursor: pointer;
-    border-radius: 30px;
-    border: 1px solid blue;
-    margin: 0 10px;
+        padding: 10px 50px;
+        cursor: pointer;
+        border-radius: 30px;
+        border: 1px solid blue;
+        margin: 0 10px;
     }
 
     .pictures {
         text-align: center;
     }
 
-    .img1, .img2, .img3 {
-        display:none;
+    .img1,
+    .img2,
+    .img3 {
+        display: none;
     }
-    .img{
+
+    .img {
         width: 100%;
     }
-    .active{
-        background-color:#090979;
+
+    .active {
+        background-color: #090979;
         color: white;
         box-shadow: 0 0 5px 1px black;
+        position: relative;
+        animation-name: slide;
+        animation-duration: 1s;
+        animation-timing-function:linear;
     }
+    
+        @keyframes slide {
+            from {
+                right: 100px;
+            }
+
+            to {
+                right: 0px;
+            }
+        }
+        
+    
 </style>
 
 <body>
@@ -59,7 +81,7 @@
         <div class="nav">
             <div class="inner">
                 <ul>
-                    <li class="bronco" id="bronco" onclick="bronco()">Ford Bronco</li>
+                    <li class="bronco" id="bronco">Ford Bronco</li>
                     <li class="mustang" id="mustang">Ford Mustang</li>
                     <li class="f150" id="f150">Ford F-150 Truck</li>
                 </ul>
