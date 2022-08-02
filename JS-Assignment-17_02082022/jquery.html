@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jquery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="jquery.js"></script>
+</head>
+<style>
+    .main {
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+    }
+.nav{
+    padding-bottom: 50px;
+}
+    .inner {
+        border: 1px solid black;
+        padding: 20px 0;
+        text-align: center;
+        background-color: azure;
+    border-radius: 60PX;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        display: inline-block;
+    padding: 10px 50px;
+    cursor: pointer;
+    border-radius: 30px;
+    border: 1px solid blue;
+    margin: 0 10px;
+    }
+
+    .pictures {
+        text-align: center;
+    }
+
+    .img1, .img2, .img3 {
+        display:none;
+    }
+    .img{
+        width: 100%;
+    }
+    .active{
+        background-color:#090979;
+        color: white;
+        box-shadow: 0 0 5px 1px black;
+    }
+</style>
+
+<body>
+    <div class="main">
+        <div class="nav">
+            <div class="inner">
+                <ul>
+                    <li class="bronco" id="bronco" onclick="bronco()">Ford Bronco</li>
+                    <li class="mustang" id="mustang">Ford Mustang</li>
+                    <li class="f150" id="f150">Ford F-150 Truck</li>
+                </ul>
+            </div>
+        </div>
+        <div class="img1"><img src="./imgs/bronco-sport-sand.jpg" alt="bronco" class="img"></div>
+        <div class="img2"><img src="./imgs/ford-mustang.jpg" alt="mustang" class="img"></div>
+        <div class="img3"><img src="./imgs/F150_R7A7574_Tremor_CAN.webp" alt="f-150" class="img"></div>
+    </div>
+</body>
+
+</html>
