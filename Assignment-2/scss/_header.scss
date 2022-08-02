@@ -5,77 +5,80 @@
     @include resolution;
 }
 
-.nav-drop {
+.nav-drop,
+.menubar {
     display: none !important;
 }
 
 .nav {
     background-color: $color015;
     box-sizing: border-box;
-    display: flex;
+    overflow: hidden;
 }
-
-.nav-bar-l {
-    width: 50%;
-    display: flex;
-}
-
-.nav-link-l {
-    text-align: center;
-    width: 18%;
-}
-
-.nav-bar-m {
-    width: 25%;
-    display: flex;
-    justify-content: end;
-}
-
-.nav-link-m {
-    text-align: center;
-    width: 50%;
-}
-
-.nav-bar-r {
-    width: 25%;
-    display: flex;
-    justify-content: end;
-}
-
-.nav-link-r {
-    text-align: center;
-    width: 50%;
-}
-
 .link-text {
     text-decoration: none;
     color: $colorf4f;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+.nav-list{
+    @include list;
+}
+.left-nav{
+    float: left;
+    width: 75%;
+}
+.nav-bar-l {
+    width: 50%;
+   float: left;
+   box-sizing: border-box;
+}
+
+.nav-link-l, .nav-link-m {
+  display: inline-block;
+  padding: 0 12px;
+  vertical-align: middle;
+}
+
+.nav-bar-m {
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+
+.nav-bar-r {
+    width: 25%;
+    float: right;
+    display: flex; 
+}
 
 .input {
     color: black;
     outline: none;
-    padding: 10px 30px;
+    padding: 10px 5px;
     border: none;
+    width: 96%;
 }
 
 .inp {
-    width: 85%;
     position: relative;
-    padding: 0 0;
+    width: 65%;
 }
 
 .search-icon {
-    background-color: $colorf4f;
-    color: $color015;
+    background-color: #f4f5f9;
+    color: #015172;
     position: absolute;
-    right: 5px;
+    right: 7px;
     top: 10px;
+    cursor: pointer;
 }
 
 .last-nav {
-    background-color: $color006;
+    background-color: #006792;
+    color: #f4f5f9;
+    padding: 5px 38px 10px 30px;
+    width: 22%;
+    cursor: pointer;
 }
 
 .user-icon {
@@ -87,8 +90,4 @@
     padding: 10px 20px;
     background-color: $colorfff;
     border-bottom: 1px solid grey;
-}
-
-.menubar {
-    display: none;
 }

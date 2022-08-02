@@ -4,6 +4,7 @@
 @import './scss/main';
 @import './scss/footer';
 
+
 @media screen and (min-width:320px) and (max-width:767px) {
     .nav-drop {
         display: inline-block !important;
@@ -11,23 +12,38 @@
 .employers, .providers, .producers, .company{
     display: none;
 }
-.nav-bar-l{
-    float: left;
-    width: 50%;
-}
-.nav-bar-m{
-    float: right;
-    width: 50%;
+.left-nav{
+    width: 100%;
+    padding: 15px 0;
+    .nav-bar-l{
+        width: 30%;
+    }
+    .nav-bar-m{
+        width: 70%;
+    }
 }
 .nav-bar-r{
 width: 100%;
-text-align: right;
+}
+.last-nav{
+    padding-top: 15px;
+}
+.search-icon{
+    right: 20px;
+    top: 20px;
+}
+.inp{
+    width: 100%;
+}
+.input{
+    padding: 20px 20px;
+    width: 92%;
 }
 .logo{
     position: relative;
 }
 .menubar{
-    display: block;
+    display: block !important;
     font-size: 50px;
     position: absolute;
     right: 20px;
@@ -37,18 +53,30 @@ text-align: right;
 .site-link{
     display: none;
 }
+
 .banner-over{
     display: none;
+}
+.slogan{
+    font-size: 40px;
+}
+.brandvalue{
+    font-size: 29px;
+}
+.headrule{
+    width: 140px;
+    margin-top: 70px;
 }
 .highlight{
     display: block;
     margin: 0;
 }
-.article-img{
+.article-img, .article-data{
     width: 100%;
 }
 .artic-img{
-    width: 100%;
+  
+    margin-bottom: 25px !important;
 }
 .button1, .button2, .button3{
     display: none !important;
