@@ -5,39 +5,52 @@ $(document).ready(function () {
         //$('.img1, .img2, .img-3').hide()
 
         if ($(this).hasClass('bronco')) {
-            $('.img2').removeClass('active')
-            $('.img3').removeClass('active')
+
+           // $('.img2').removeClass('active')
+            //$('.img3').removeClass('active')
             if ($('.img1').hasClass('active')) {
-               $('.img1').removeClass('active')
+                $('.img1').removeClass('active')
             }
             else {
+                $('.img2, .img3').hide();
                 $('.img1').fadeToggle();
+
+                //$('img1').animate({})
             }
-            
+
             $(this).toggleClass('active')
         }
         else if ($(this).hasClass('mustang')) {
-            $('.img1').removeClass('active')
-            $('.img3').removeClass('active')
+
+            // $('.img1').removeClass('active')
+            // $('.img3').removeClass('active')
             if ($('.img2').hasClass('active')) {
-                $('.img2').removeClass('active')
+
+                $('.img2').removeClass('active');
+
             }
             else {
+                $('.img1, .img3').hide();
                 $('.img2').fadeToggle();
             }
-            
+
             $(this).toggleClass('active')
         }
         else {
-            $('.img2').removeClass('active')
-            $('.img1').removeClass('active')
+
+            // $('.img2').removeClass('active')
+            //  $('.img1').removeClass('active')
             if ($('.img3').hasClass('active')) {
-                $('.img3').removeClass('active')
+
+                $('.img3').removeClass('active');
+
+
             }
             else {
+                $('.img1, .img2').hide();
                 $('.img3').fadeToggle();
             }
-            
+
             $(this).toggleClass('active')
         }
     })
