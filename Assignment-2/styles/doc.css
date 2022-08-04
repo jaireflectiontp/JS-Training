@@ -794,14 +794,35 @@
     width: 140px;
     margin-top: 70px; }
   .highlight {
-    display: block;
-    margin: 0; }
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 100px; }
   .article-img, .article-data {
     width: 100%; }
   .artic-img {
+    width: 100%;
     margin-bottom: 25px !important; }
-  .button1, .button2, .button3 {
+  .turning26 {
+    padding: 50px 0 1px 50px; }
+  .turning26-heading {
+    font-size: 50px; }
+  .turning26-info {
+    font-size: 30px; }
+  .more {
+    font-size: 25px;
+    font-weight: 700; }
+  .button-1, .button-2, .button-3 {
     display: none !important; }
+  .row {
+    flex-direction: column; }
+  .que-para {
+    padding: 70px 30px 0 30px;
+    text-align: left; }
+  .second {
+    font-size: 45px; }
+  .second-info {
+    font-size: 27px; }
   .benif-link {
     width: 100%; }
   figcaption {
@@ -809,20 +830,26 @@
   .benifimage {
     float: left; }
   .analytics {
-    padding: 0 50px; }
+    padding: 0 30px; }
   .country-record {
-    display: block; }
+    display: block;
+    margin-top: 10px; }
     .country-record .column {
       width: 100%;
-      height: 400px; }
+      height: 300px; }
+  .image2 {
+    height: 300px; }
   .column:first-child {
     border-bottom: 1px solid gray; }
   .globe-record {
-    display: block; }
+    display: block;
+    margin-top: 10px; }
     .globe-record .columns {
       width: 100%;
-      padding: 30px 0;
-      height: 350px; }
+      height: 300px; }
+  .image3 {
+    height: 300px;
+    float: left; }
   .find {
     display: block;
     padding: 60px 15px; }
