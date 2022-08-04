@@ -1,0 +1,9 @@
+In our tests, we observed that only 3% of the people could spot the deer within 9 seconds. Are you one of those brightest people on the planet? Go ahead and attempt the test to find out
+https://www.w3schools.com/Js/js_es6.asp
+
+'https://dummy.restapiexample.com/api/v1/create',
+            { 
+                name: 'Hemant1', 
+                city: 'Nagpur',
+                conuntry: 'Pakistan'
+            }
