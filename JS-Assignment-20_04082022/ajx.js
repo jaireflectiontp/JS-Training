@@ -1,0 +1,14 @@
+$(document).ready(function(){
+    $('button').click(function(){
+        $.post('https://dummy.restapiexample.com/api/v1/create',
+        {
+            name:'jay',
+            username:'jayrautel',
+            city:'nagpur'
+        },
+        function(result){
+            $('result').html(result)
+        }
+        )
+    })
+})
