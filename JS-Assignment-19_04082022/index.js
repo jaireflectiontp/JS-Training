@@ -10,7 +10,7 @@ $(document).ready(function () {
                     info += '<tr><td>' + result[i].id + '</td><td>' + result[i].name + '</td><td>' + result[i].username + '</td><td>' + result[i].email + '</td><td>' + result[i].address.city + '</td><td>' + result[i].address.zipcode + '</td></tr>'
                 }
                 //print
-                $('.show').html(info)
+         $('.show').html(info)
                 $('td').mouseover(function(){
                     $(this).css({'background-color':'pink'})
                 })
