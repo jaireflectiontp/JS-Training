@@ -2,12 +2,15 @@ $(document).ready(function(){
     $('button').click(function(){
         $.post('https://dummy.restapiexample.com/api/v1/create',
         {
-            name:'jay',
-            username:'jayrautel',
-            city:'nagpur'
+            name:'jay1',
+            username:'Artemis',
+            city:'nagpur',
+            pincode:'441101',
+            state:'maharashtra',
+            country:'india'
         },
         function(result){
-            $('result').html(result)
+            $('.show').html(result)
         }
         )
     })
