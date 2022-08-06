@@ -216,25 +216,22 @@ let text = '';
             text += '<tr><td>' + store.id+ '</td><td>' + store.name+ '</td></tr>'
     })
 const change = () => {
+
 let output =document.getElementById('filterthis').value;
 
-    let id= '';
-    let name = '';
-    let username = '';
-
+    let text= '';
+    
     emp.map((store) => {
         if (store.id == output) {
-            id += '<tr><td>' + store.id+ '</td><td>' + store.name+ '</td><td>' + store.email+ '</td><td>' + store.address.street+ '</td><td>' + store.address.suite+ '</td><td>' + store.address.city+ '</td><td>' + store.address.zipcode+ '</td></tr>'
+            text += '<tr><td>' + store.id+ '</td><td>' + store.name+ '</td><td>' + store.email+ '</td><td>' + store.address.street+ '</td><td>' + store.address.suite+ '</td><td>' + store.address.city+ '</td><td>' + store.address.zipcode+ '</td></tr>'
         }
         if (store.name == output) {
-            name += '<tr><td>' + store.username+ '</td><td>' + store.phone+ '</td><td>' + store.website+ '</td></tr>'
+            text += '<tr><td>' + store.username+ '</td><td>' + store.phone+ '</td><td>' + store.website+ '</td></tr>'
         }
         if (store.username == output) {
-            username += '<tr><td>' + store.company.name+ '</td><td>' + store.company.catchPhrase+ '</td><td>' + store.company.bs+ '</td></tr>'
+            text += '<tr><td>' + store.company.name+ '</td><td>' + store.company.catchPhrase+ '</td><td>' + store.company.bs+ '</td></tr>'
         }
 
     })
-    document.getElementById('option').innerHTML=id;
-    document.getElementById('option1').innerHTML=name;
-    document.getElementById('option2').innerHTML=username;
+    document.getElementById('option').innerHTML=text;
 }

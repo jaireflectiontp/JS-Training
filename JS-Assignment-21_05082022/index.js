@@ -1,29 +1,26 @@
+let details = '';
 $(document).ready(function () {
+
     $('#filterthis').click(function () {
         $.ajax({
-            url: './index.txt',
+            url: './index.json',
             success: function (emp) {
-               $('.open').html(emp)
+                details = emp;
             }
-
         })
-        let emp = $('.open').value
-         
-        const change = () => {
-
-            let output = $('#filterthis').value;
-
-            let text = '';
-
-            emp.map((store) => {
-                if (store.id == output) {
-                    text += '<tr><td>' + store.id+ '</td></tr>'
-                }
-
-            })
-            $('#option').html(text)
-        }
-        
     })
-
+    $('#filterthis').keyup(function () {
+    filterdata()
+    })
 })
+const filterdata = () => {
+    let output = $('#filterthis').val();
+    let text = '';
+    details.map((store) => {
+        console.log(store)
+        if (store.id == output) {
+            text += '<tr><td>' + store.name + '</td></tr>'
+        }
+    })
+    $('#option').html(text)
+}
