@@ -1,0 +1,8 @@
+.slide{
+    background-color: tomato;
+    height:300px ;
+    display: none;
+}
+.slide:first-child{
+    display: block;
+}
