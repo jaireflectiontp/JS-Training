@@ -27,12 +27,11 @@ class department {
         classData.map((observe) => {
             if (observe.id == typed) {
                 info += '<tr><td>' + observe.rollno + '</td><td>' + observe.FullName + '</td><td>' + observe.email + '</td></tr>'
-               return info=output; 
+                info=output; 
             }
         })
     }
     standup() {
-        let output=info.change();
         if (this.notation == 'Amit') {
             console.log(output)
         }
