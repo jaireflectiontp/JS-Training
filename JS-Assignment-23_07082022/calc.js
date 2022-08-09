@@ -1,5 +1,4 @@
 var result = '';
-
 class calculator {
 constructor(number1, number2, operator) {
     this.number1 = number1;
