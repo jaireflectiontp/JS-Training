@@ -2,16 +2,16 @@ class slider {
     constructor() {
         this.pages = [
             {
-                name: 'slide1',
+                name: '0.jpg',
             },
             {
-                name: 'slide2',
+                name: '1.jpg',
             },
             {
-                name: 'slide3',
+                name: '2.jpg',
             },
             {
-                name: 'slide4',
+                name: '3.jpg',
             },
         ]
         this.activepage = this.pages[0];
@@ -19,7 +19,7 @@ class slider {
     }
 
     playthis() {
-        let present = '<div class="slide">' + this.activepage.name + '</div>'
+        let present = '<img src="' + this.activepage.name + '" alt="" class="slide"></img>'
         $('#slider').html(present)
     }
     auto() {
@@ -30,13 +30,13 @@ class slider {
                 alternate.activepage = alternate.pages[alternate.activeIndex];
                 alternate.playthis();
             }
-            else if (alternate.activeIndex < alternate.pages.length - 1) {
+            else if (alternate.activeIndex <= alternate.pages.length - 1) {
                 alternate.activeIndex = 0;
                 alternate.activepage = alternate.pages[0];
                 alternate.playthis();
             }
 
-        }, 2000)
+        }, 800)
     }
 }
 let show = new slider();
