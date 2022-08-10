@@ -839,6 +839,8 @@
       height: 300px; }
   .image2 {
     height: 300px; }
+  .ratings {
+    font-size: 90px; }
   .column:first-child {
     border-bottom: 1px solid gray; }
   .globe-record {
