@@ -793,6 +793,8 @@
   .headrule {
     width: 140px;
     margin-top: 70px; }
+  .inner-direct {
+    padding: 50px 30px; }
   .highlight {
     display: flex;
     flex-direction: column;
@@ -804,7 +806,7 @@
     width: 100%;
     margin-bottom: 25px !important; }
   .turning26 {
-    padding: 50px 0 1px 50px; }
+    padding: 50px 30px 5px 30px; }
   .turning26-heading {
     font-size: 50px; }
   .turning26-info {
@@ -826,7 +828,8 @@
   .benif-link {
     width: 100%; }
   figcaption {
-    padding-top: 15px; }
+    padding: 15px 50px;
+    float: left; }
   .benifimage {
     float: left; }
   .analytics {
@@ -839,10 +842,19 @@
       height: 300px; }
   .image2 {
     height: 300px; }
-  .ratings {
+  .rating {
     font-size: 90px; }
+  .record-title {
+    font-size: x-large;
+    padding-top: 25px; }
+  .note {
+    padding: 15px;
+    font-size: 20px; }
   .column:first-child {
     border-bottom: 1px solid gray; }
+  .achievement {
+    right: 115px;
+    bottom: 60px; }
   .globe-record {
     display: block;
     margin-top: 10px; }
@@ -867,7 +879,8 @@
     border-right: none;
     border-bottom: 1px solid black; }
   .footer {
-    font-size: larger; }
+    font-size: larger;
+    padding: 0 30px; }
   .footer-link {
     display: block;
     padding: 10px 0; }
