@@ -1,0 +1,49 @@
+@import './mixin';
+@import './variable';
+
+.top-header {
+    background-color: $colorf8b;
+    padding: 20px 0;
+}
+
+.bottom-header {
+    background-color: $colorfef;
+}
+
+.topIn {
+    @include max-width;
+    display: flex;
+}
+.left-head{
+    display: flex;
+    width: 50%;
+    text-align: left;
+}
+.schedule, .contact{
+    width: 50%;
+}
+.right-head{
+    text-align: right;
+    width: 50%;
+}
+
+.bottomIn {
+    @include max-width; 
+    display: flex;
+}
+.bottom-left{
+    width: 50%;
+}
+.navigation{
+    width: 50%;
+}
+.nav-list{
+    @include ul;
+}
+.nav-link{
+    display: inline-block;
+    padding: 0 20px ;
+}
+.link-text{
+    text-decoration: none;
+}

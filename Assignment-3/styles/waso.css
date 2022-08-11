@@ -1,2 +1,50 @@
+.top-header {
+  background-color: #f8bf0d;
+  padding: 20px 0; }
+
+.bottom-header {
+  background-color: #fefefe; }
+
+.topIn {
+  max-width: 1366px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex; }
+
+.left-head {
+  display: flex;
+  width: 50%;
+  text-align: left; }
+
+.schedule, .contact {
+  width: 50%; }
+
+.right-head {
+  text-align: right;
+  width: 50%; }
+
+.bottomIn {
+  max-width: 1366px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex; }
+
+.bottom-left {
+  width: 50%; }
+
+.navigation {
+  width: 50%; }
+
+.nav-list {
+  margin: 0;
+  padding: 0; }
+
+.nav-link {
+  display: inline-block;
+  padding: 0 20px; }
+
+.link-text {
+  text-decoration: none; }
+
 .body {
   margin: 0px; }
