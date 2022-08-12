@@ -8,6 +8,7 @@
 
 .bottom-header {
     background-color: $colorfef;
+    padding: 10px 0;
 }
 
 .topIn {
@@ -43,10 +44,30 @@
     display: flex;
 }
 .bottom-left{
-    width: 50%;
+    width: 40%;
+}
+.waso{
+    font-size: 40px;
+    color: $colorf8b;
+}
+.strategy{
+    font-size: 40px;
+    color: $colordc3;
 }
 .navigation{
-    width: 50%;
+    width: 60%;
+    text-align: right;
+}
+.link-no{
+    color: $colorf8b;
+    font-weight: 700;
+}
+.links{
+    font-weight: 700;
+    color: $color6e6;
+}
+.links:hover{
+    color: $colordc3;
 }
 .nav-list{
     @include ul;

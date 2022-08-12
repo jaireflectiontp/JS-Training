@@ -4,6 +4,8 @@
 <head>
     <title>Waso Strategy</title>
     <script src="https://kit.fontawesome.com/b826549c01.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
     <link rel="stylesheet" href="styles/waso.css">
 </head>
 
@@ -36,21 +38,32 @@
     <div class="bottom-header">
         <div class="bottomIn">
             <div class="bottom-left">
-                <span class="waso">Waso</span>
+                <span class="waso">J.R.</span>
                 <span class="strategy">Strategy</span>
             </div>
             <nav class="navigation">
                 <ul class="navlist">
-                    <li class="nav-link"><a href="#" class="link-text">01HOME</a></li>
-                    <li class="nav-link"><a href="#" class="link-text">02ABOUT</a></li>
-                    <li class="nav-link"><a href="#" class="link-text">03SERVICES</a></li>
-                    <li class="nav-link"><a href="#" class="link-text">04PROJECTS</a></li>
-                    <li class="nav-link"><a href="#" class="link-text">05CONTACT</a></li>
+                    <li class="nav-link"><a href="#" class="link-text"><span class="link-no">01</span><span class="links">HOME</span></a></li>
+                    <li class="nav-link"><a href="#" class="link-text"><span class="link-no">02</span><span class="links">ABOUT</span></a></li>
+                    <li class="nav-link"><a href="#" class="link-text"><span class="link-no">03</span><span class="links">SERVICES</span></a></li>
+                    <li class="nav-link"><a href="#" class="link-text"><span class="link-no">04</span><span class="links">PROJECTS</span></a></li>
+                    <li class="nav-link"><a href="#" class="link-text"><span class="link-no">05</span><span class="links">CONTACT</span></a></li>
                 </ul>
             </nav>
         </div>
     </div>
 </header>
+<main class="main">
+    <section class="intro">
+        <div id="slider"></div>
+    <span class="slider-button">
+        <button  onclick="show.prev()"><i class="fa-solid fa-chevron-left btn "></i></button>
+        <button  onclick="show.next()"><i class="fa-solid fa-chevron-right btn "></i></button>
+    </span>
+   
+    </section>
+</main>
+<script src="waso.js"></script>
 </body>
 
 </html>
