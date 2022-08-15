@@ -34,17 +34,19 @@
 }
 .social-icon{
     background-color: white;
-    padding: 5px;
+    padding: 5px 8px;
     border-radius: 15px;
     margin: 0 5px;
 }
-
+.social-icon .link-text:hover{
+    color: $colorf8b
+}
 .bottomIn {
     @include max-width; 
     display: flex;
 }
 .bottom-left{
-    width: 40%;
+    width: 16%;
 }
 .waso{
     font-size: 40px;
@@ -55,7 +57,7 @@
     color: $colordc3;
 }
 .navigation{
-    width: 60%;
+    width: 84%;
     text-align: right;
 }
 .link-no{
