@@ -11,7 +11,25 @@ if(minute==60){
     hour++;
     minute=0;
 }
-document.getElementById('sec').innerHTML=second
-document.getElementById('min').innerHTML=minute
-document.getElementById('hr').innerHTML=hour
+if(hour==24){
+    hour=0;
+}
+if(second < 10){
+    document.getElementById('sec').innerHTML = '0'+second; 
+}
+else{
+    document.getElementById('sec').innerHTML = second; 
+}
+if(minute < 10){
+    document.getElementById('min').innerHTML = '0'+minute; 
+}
+else{
+    document.getElementById('min').innerHTML = minute;
+}
+if(hour < 10){
+    document.getElementById('hr').innerHTML = '0'+hour;
+}
+else{
+    document.getElementById('hr').innerHTML = hour; 
+}
 },1000)

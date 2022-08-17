@@ -3,12 +3,9 @@ var second = 0;
 var minute = 0;
 var hour = 0;
 var clock = startOver()
+
 function play() {
-    milisecond = 0;
-    second = 0;
-    minute = 0;
-    hour = 0;
- clock = startOver()
+    clock = startOver()
 }
 
  function startOver(){
@@ -27,15 +24,23 @@ function play() {
             minute = 0;
         }
         document.getElementById('mili').innerHTML = milisecond;
-        if(second, minute, hour < 10){
-            document.getElementById('sec').innerHTML = '0'+second;
-            document.getElementById('min').innerHTML = '0'+minute;
+        if(second < 10){
+            document.getElementById('sec').innerHTML = '0'+second; 
+        }
+        else{
+            document.getElementById('sec').innerHTML = second; 
+        }
+        if(minute < 10){
+            document.getElementById('min').innerHTML = '0'+minute; 
+        }
+        else{
+            document.getElementById('min').innerHTML = minute;
+        }
+        if(hour < 10){
             document.getElementById('hr').innerHTML = '0'+hour;
         }
         else{
-            document.getElementById('sec').innerHTML = second;
-            document.getElementById('min').innerHTML = minute;
-            document.getElementById('hr').innerHTML = hour;
+            document.getElementById('hr').innerHTML = hour; 
         }
     }, 10)
  }
@@ -43,3 +48,7 @@ function play() {
 function pause() {
     clearInterval(clock);
 }
+
+           
+           
+            
