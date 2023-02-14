@@ -1,0 +1,25 @@
+body{
+    overflow: hidden;
+    text-align: center;
+}
+#slider{
+    width: 800px;
+    margin: 20px auto;
+}
+.slide{
+    width:100%;
+    height:100%;
+}
+.slide:first-child{
+    display: block;
+    transition: 0.5s;
+}
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: blueviolet;
+    font-weight: 700;
+    color: aliceblue;
+    cursor: pointer;
+}
