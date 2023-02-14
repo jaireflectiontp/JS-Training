@@ -1,0 +1,23 @@
+body{
+    max-width: 800px;
+    width: 100%;
+    border: 5px dashed;
+    padding: 25px;
+    margin: 50px auto;
+    border-radius: 40px;
+}
+.show{
+    padding: 25px 0px;
+}
+button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    outline: none;
+    border: none;
+    margin: 0 15px;
+    box-shadow: 2px 2px 5px 3px #a3a0a08f;
+    font-weight: 600;
+    color: #FFF;
+    cursor: pointer;
+}
