@@ -1,87 +1,107 @@
 @import './mixin';
 @import './variable';
 
-#slider{
+#slider {
     position: relative;
 }
-.slide:first-child{
+
+.slide:first-child {
     display: block;
 }
-.slide{
+
+.slide {
     width: 100%;
     height: 600px;
 }
-.slider-button{
+
+.slider-button {
     position: absolute;
     bottom: 50px;
     right: 75px;
 }
-.btn{
+
+.btn {
     font-size: 60px;
     color: $colorfef;
     cursor: pointer
 }
-.consultancy{
+
+.consultancy {
     @include max-width;
     padding: 100px 0;
     display: flex;
     justify-content: space-between;
 }
-.ceo-prof, .about-ceo{
+
+.ceo-prof,
+.about-ceo {
     width: 49%;
 }
-.ceo-img{
+
+.ceo-img {
     width: 100%;
     width: 100%;
     float: left;
     @include box-shadow;
 }
-.about-ceo{
+
+.about-ceo {
     display: flex;
     flex-direction: column;
-justify-content: space-between;
+    justify-content: space-between;
 }
-.history{
+
+.history {
     height: 58%;
     @include box-shadow;
 }
-.aboutInfo{
+
+.aboutInfo {
     padding: 55px;
 }
-.aboutInfo h2{
+
+.aboutInfo h2 {
     font-size: 40px;
     margin: 0;
 }
-.aboutInfo h4{
+
+.aboutInfo h4 {
     font-size: 25px;
     margin: 10px 0;
 }
-.aboutInfo p{
+
+.aboutInfo p {
     font-size: 20px;
 }
-.pageno{
+
+.page_title {
     font-weight: 600;
     font-size: large;
 }
-.about-pageno{
+
+.pageno {
     color: $colordc3;
     margin-bottom: 5px;
 }
-.join{
+
+.join {
     height: 38%;
     display: flex;
     justify-content: space-between;
 }
-.invitation{
+
+.invitation {
     width: 48%;
     color: $colorfef;
     background-color: $colordc3;
     @include box-shadow;
 }
-.invitation strong{
+
+.invitation strong {
     font-size: 25px;
 }
-.join-button{
+
+.join-button {
     padding: 15px 30px;
     color: $colorfef;
     background-color: $colorf8b;
@@ -90,22 +110,198 @@ justify-content: space-between;
     font-weight: 600;
     cursor: pointer;
 }
-.join-button:hover{
+
+.join-button:hover {
     background-color: $colorfef;
     color: black;
 }
-.join-btn{
+
+.join-btn {
     margin-top: 50px;
 }
-.info{
+
+.info {
     width: 48%;
     color: $colorfef;
-    background-color:$colorf8b;
+    background-color: $colorf8b;
     @include box-shadow;
 }
-.info strong, p{
+
+.info strong,
+p {
     font-size: 25px;
 }
-.join-inside{
+
+.join-inside {
     padding: 50px 0px 40px 40px;
+}
+
+.service {
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 780px;
+    padding: 100px 0;
+
+    .service_container {
+        @include max-width;
+        height: 780px;
+
+        .page_heading {
+            text-align: center;
+            margin-bottom: 50px;
+
+            h2 {
+                font-size: 40px;
+                margin: 0;
+            }
+
+            .page_title {
+                font-weight: 600;
+                font-size: large;
+            }
+
+            .pageno {
+                color: $colordc3;
+                margin-bottom: 5px;
+            }
+        }
+
+        .service_patterns {
+            max-width: 1320px;
+            width: 100%;
+            margin: auto;
+            display: flex;
+
+            .service_pattern_left,
+            .service_pattern_right {
+                width: 50%;
+            }
+
+            .service_pattern_left {
+                display: grid;
+                gap: 30px;
+
+                .service_row {
+                    border-radius: 5px;
+                    display: grid;
+                    align-content: space-evenly;
+                    width: 590px;
+                    height: 180px;
+                    border-left: 7px solid #717275;
+                    transition: 0.5s;
+
+                    .service_info {
+                        font-size: 1em;
+                        font-weight: 500;
+                        color: #717275;
+                    }
+
+                    .service_name {
+                        font-size: 35px;
+                    }
+
+                    .service_name,
+                    .service_info {
+                        margin: 0 25px;
+                    }
+                }
+
+                .service_row:first-child {
+                    border-color: $colordc3;
+                    background-color: $colorfef;
+                    box-shadow: 0px 0px 40px -1px $color717
+                }
+
+                .service_row:hover {
+                    border-color: $colordc3;
+                    background-color: $colorfef;
+                    box-shadow: 0px 0px 40px -1px $color717
+                }
+
+                .service_row:hover .service_name {
+                    color: $colorf8b;
+                }
+            }
+
+            .service_pattern_right {
+                .service_image {
+                    width: 100%;
+                    height: 460px;
+                    margin-bottom: 15px;
+                }
+
+                .service_intro {
+                    h4 {
+                        margin: 0;
+                        font-size: 25px;
+                    }
+
+                    p {
+                        font-size: 20px;
+                        font-weight: 400;
+                        color: #717275;
+                    }
+
+                    ;
+                }
+            }
+        }
+    }
+}
+
+.projects {
+    width: 100%;
+    height: 1150px;
+
+    .project_container {
+        @include max-width;
+        border: 1px solid red;
+        height: 100%;
+
+        .page_heading {
+            text-align: center;
+            margin-bottom: 50px;
+
+            h2 {
+                font-size: 40px;
+                margin: 0;
+            }
+
+            .page_title {
+                font-weight: 600;
+                font-size: large;
+            }
+
+            .pageno {
+                color: $colordc3;
+                margin-bottom: 5px;
+            }
+        }
+
+        .project_grid {
+            width: 100%;
+            border: 1px solid blue;
+          .grid_row1, .grid_row2{
+            display: flex;
+            gap: 30px;
+            .grid_item{
+                border: 1px solid green;
+                border-radius: 25px;
+                width: 435px;
+                height: 435px;
+                overflow: hidden;
+               }
+               .grid_item>img:hover{
+              transform: scale(1 1);
+                transition: 0.8s;
+               }
+          }
+          .grid_row2{
+            margin-top: 30px;
+            #mega{
+                width: calc(100% - 435px - 30px);
+            }
+          }
+        }
+    }
 }
