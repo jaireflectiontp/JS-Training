@@ -20,19 +20,21 @@ class department {
     studentId() {
         return document.getElementById('student').value;
     }
+    
     change () {
+      
+    }
+    standup() {
         var output='';
         var typed=document.getElementById('student').value;
         let info = '';
         classData.map((observe) => {
-            if (observe.id == typed) {
+            if (observe.id === typed) {
                 info += '<tr><td>' + observe.rollno + '</td><td>' + observe.FullName + '</td><td>' + observe.email + '</td></tr>'
                 info=output; 
             }
         })
-    }
-    standup() {
-        if (this.notation == 'Amit') {
+        if (this.notation === 'Amit') {
             console.log(output)
         }
         else {

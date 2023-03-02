@@ -1,0 +1,71 @@
+@import "./mixin";
+@import "./variable";
+
+footer {
+    width: 100%;
+    background-color: $colorf8b;
+    height: 600px;
+    padding: 50px 0;
+
+    .footer_container {
+        @include max-width;
+        border: 1px solid;
+        height: 100%;
+
+        .page_heading {
+            color: black;
+            margin-bottom: 50px;
+
+            h2 {
+                font-size: 40px;
+                margin: 0;
+            }
+
+            .page_title {
+                font-weight: 600;
+                font-size: large;
+            }
+
+            .pageno {
+                color: #fff;
+                margin-bottom: 5px;
+
+            }
+        }
+
+        .contact_wrapper {
+            width: 100%;
+            display: flex;
+            padding: 20px 0;
+        }
+
+        .contact_form {
+            width: 50%;
+
+            .form_controls {
+                display: flex;
+                justify-content: space-between;
+
+                input {
+                    width: 45%;
+                    padding: 15px 5px;
+                    border: none;
+                    outline: none;
+                    border-bottom: 2px solid #fff;
+                    font-size: 1em;
+                    background-color: transparent;
+                    transition: 0.4s;
+                }
+
+                input:focus {
+                    background-color: #fff;
+                }
+
+                input:hover {
+                    background-color: #fff;
+                }
+
+            }
+        }
+    }
+}
