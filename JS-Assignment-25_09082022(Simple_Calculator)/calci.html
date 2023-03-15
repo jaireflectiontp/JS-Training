@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="calci.css">
+</head>
+
+<body>
+    <div class="template">
+        <div class="wrapper">
+            <input type="number" placeholder="Enter first number" id="num1" class="inp">
+            <input type="number" placeholder="Enter second number" id="num2" class="inp">
+            <div class="button">
+                <button class="btn" onclick="output.addnew()">+</button>
+                <button class="btn" onclick="output.substractnew()">-</button>
+                <button class="btn" onclick="output.multiplynew()">*</button>
+                <button class="btn" onclick="output.dividenew()">/</button>
+            </div>
+            <div class="solution">
+                <div>Result:</div>
+                <div id="result"></div>
+            </div>
+        </div>
+    </div>
+    <script src="calci.js"></script>
+</body>
+
+</html>
