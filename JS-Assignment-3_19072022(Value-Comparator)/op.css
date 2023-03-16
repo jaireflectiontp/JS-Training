@@ -1,0 +1,35 @@
+body{
+    background-color: darkslateblue;
+}
+.container {
+    max-width: 350px;
+    width: 100%;
+    margin: 100px auto;
+    background-color: lavenderblush;
+    border-radius: 5px;
+    box-shadow: 10px 10px 25px 5px #2e2561;;
+    display: grid;
+    place-content: center;
+    padding: 20px
+}
+input{
+    padding: 5px 15px;
+    font-size: large;
+    margin: 10px 0;
+}
+.box {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.pad {
+    padding: 5px 10px;
+    height: 20px;
+    border: 1px solid greenyellow;
+    color: blue;
+}
+.btn{
+    cursor: pointer;
+
+}
