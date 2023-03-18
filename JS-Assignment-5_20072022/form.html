@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Login-Form</title>
-        <link rel="stylesheet" href="form.css">
-    </head>
-    <body>
-       <div class="container">
+
+<head>
+    <title>Login-Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="container">
+<h2>Login Form</h2>
         <form>
-            <div id="ErrorLogin" class="pad error"></div>
-            <div class="pad"><label>Username :</label></div>
-            <div class="pad"><input type="text" id="username" placeholder="Enter username"></div>
+            <div class="pad"><label>Username </label></div>
+            <div class="pad">
+                <input oninput="getUsername(this.value)"  value='' type="text" id="username" placeholder="Enter username">
+            </div>
             <div id="ErrorUsername" class="pad error"></div>
-            <div class="pad"><label>Password :</label></div>
-            <div class="pad"><input type="password" id="password" placeholder="Enter pasword"></div>
+            <div class="pad"><label>Password </label></div>
+            <div class="pad">
+                <input oninput="getPass(this.value)" value="" type="password" id="password" placeholder="Enter pasword">
+            </div>
             <div id="ErrorPassword" class="pad error"></div>
-            <div class="pad"><button onclick="Login()" type="button">Login</button></div>
+            <div class="pad btn"><button onclick="Login()" type="button">Login</button></div>
             <div id="Success" class="pad done"></div>
         </form>
-       </div>
 
-        <script src="form.js"></script>
-    </body>
+    </div>
+
+    <script src="form.js"></script>
+</body>
+
 </html>

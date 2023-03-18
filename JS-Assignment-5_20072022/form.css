@@ -1,22 +1,80 @@
-.container{
-    max-width: 300px;
+body {
+    background-color: #1f86a7;
+}
+*{
+    font-family: cursive;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 350px;
     width: 100%;
-    margin: 0 auto;
-    background-color: transparent;
-    height: 300px;
-    box-shadow: #a390be 0px 0px 10px 2px inset;
+    margin: 100px auto;
+    background-color: #fefefe;
+    border-radius: 10px;
+    box-shadow: #005f7e 5px 5px 15px 5px;
 }
-
-.pad{
-    padding: 10px 0px;
+h2{
     text-align: center;
+    padding-top: 20px;
+}
+form {
+    padding: 10px 20px;
 }
 
-.error{
+input {
+    width: 100%;
+    box-sizing: border-box;
+    height: 45px;
+    padding: 0 15px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+
+    background-color: #fff;
+    outline: none;
+}
+
+input:focus {
+    border-color: blue;
+}
+
+label {
+    font-size: large;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.pad {
+    padding-bottom: 1rem;
+}
+
+.error {
     color: red;
     font-size: 12px;
+    padding-left: 10px;
 }
-.done{
+
+.done {
     color: yellowgreen;
     font-size: 15px;
+    height: 20px;
+}
+
+.btn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px 2px #c3c4ff96;
+    background-color: #fff;
 }
