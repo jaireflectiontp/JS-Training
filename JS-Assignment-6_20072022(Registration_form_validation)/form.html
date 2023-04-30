@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="form.css">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="heading">
+            <h1>Registration Form</h1>
+        </div>
+        <div class="done" id="success"></div>
+        <form>
+            <div class="row section">
+                <div class="col-6 left">
+                    <div class="label">FirstName</div>
+                    <div><input type="text" id="firstname" class="input" value="" oninput="getFirstname(this.value)">
+                    </div>
+                    <div class="error" id="Efirstname"></div>
+                </div>
+                <div class="col-6 right">
+                    <div class="label">LastName</div>
+                    <div><input type="text" id="lastname" class="input" value="" oninput="getLastname(this.value)">
+                    </div>
+                    <div class="error" id="Elastname"></div>
+                </div>
+            </div>
+
+            <div class="row section">
+                <div class="col-6 left">
+                    <div class="label">E-Mail:</div>
+                    <div><input type="email" id="mail" class="input" value="" oninput="getEmail(this.value)"></div>
+                    <div class="error" id="Email"></div>
+                </div>
+                <div class="col-6 right">
+                    <div class="label">Phone:</div>
+                    <div><input type="number" id="phone" class="input" value="" oninput="getPhone(this.value)"></div>
+                    <div class="error" id="Ephone"></div>
+                </div>
+            </div>
+            <div class="addressLine">
+                <div class="label">Address:</div>
+                <div><input type="text" id="address" class="input" value="" oninput="getAddress(this.value)"></div>
+                <div class="error" id="Eaddress"></div>
+            </div>
+            <div class="row section">
+                <div class="col-6 left">
+                    <div class="label">City:</div>
+                    <div><input type="text" id="city" class="input" value="" oninput="getCity(this.value)"></div>
+                    <div class="error" id="Ecity"></div>
+                </div>
+                <div class="col-6 right">
+                    <div class="label">ZipCode</div>
+                    <div><input type="number" id="zipcode" class="input" value="" oninput="getZipcode(this.value)">
+                    </div>
+                    <div class="error" id="Ezipcode"></div>
+                </div>
+            </div>
+            <div class="row section">
+                <div class="col-6 left">
+                    <div class="label">State:</div>
+                    <div><input type="text" id="state" class="input" value="" oninput="getState(this.value)"></div>
+                    <div class="error" id="Estate"></div>
+                </div>
+                <div class="col-6 right">
+                    <div class="label">Country</div>
+                    <div><input type="text" id="country" class="input" value="" oninput="getCountry(this.value)"></div>
+                    <div class="error" id="Ecountry"></div>
+                </div>
+            </div>
+            <div class="button">
+                <button type="button" onclick="register()" class="btn btn-primary btn-size">Submit</button>
+            </div>
+            <div class="error" id="ErrorAll"></div>
+            <div class="done" id="success"></div>
+            <script src="form.js"></script>
+        </form>
+    </div>
+</body>
+
+</html>
+
