@@ -19,7 +19,7 @@ class slider {
     }
 
     playthis() {
-           let present ='<img src="' + this.activepage.name + '" alt="" class="slide"></img>'
+        let present = '<img src="' + this.activepage.name + '" alt="" class="slide"></img>'
         $('#slider').html(present)
     }
     prev() {
